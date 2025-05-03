@@ -1,0 +1,60 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pkl
+*.pyc
+*/__pycache__/
+*/*/__pycache__/
+
+# Data files
+*.csv
+*.json
+!package.json
+!package-lock.json
+!manifest.json
+
+# Environment
+.env
+venv/
+env/
+ENV/
+*.sqlite3
+
+# Node.js
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Selenium/Chrome
+selenium_profile/
+**/selenium_profile/
+
+# Build and deployment
+*.zip
+*.tar
+*.gz
+*.egg-info
+build/
+dist/
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs/
+*.log
